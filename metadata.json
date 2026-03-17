@@ -1,0 +1,5 @@
+{
+  "name": "个税计算器 (多月薪资版)",
+  "description": "支持每月不同薪资的累计预扣法个人所得税计算器，包含五险一金及专项附加扣除设置。",
+  "requestFramePermissions": []
+}
