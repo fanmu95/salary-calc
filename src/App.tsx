@@ -13,15 +13,15 @@ const FormRow = ({ label, children }: { label: string, children: React.ReactNode
 const round2 = (num: number) => Math.round((num + Number.EPSILON) * 100) / 100;
 
 export default function App() {
-  const [salaries, setSalaries] = useState<string[]>(Array(12).fill('1000'));
-  const [batchSalary, setBatchSalary] = useState<string>('1000');
+  const [salaries, setSalaries] = useState<string[]>(Array(12).fill('10000'));
+  const [batchSalary, setBatchSalary] = useState<string>('10000');
   
   const [hasSS, setHasSS] = useState(true);
-  const [ssBase, setSsBase] = useState<string>('1000');
+  const [ssBase, setSsBase] = useState<string>('10000');
   const [ssRate, setSsRate] = useState<string>('10.5');
   
   const [hasPF, setHasPF] = useState(true);
-  const [pfBase, setPfBase] = useState<string>('1000');
+  const [pfBase, setPfBase] = useState<string>('10000');
   const [pfRate, setPfRate] = useState<string>('5');
   
   const [nonTaxableAllowance, setNonTaxableAllowance] = useState<string>('');
